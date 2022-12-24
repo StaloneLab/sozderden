@@ -1,0 +1,44 @@
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	margin: 0; padding: 0;
+	font-size: 1.6rem;
+	height: 100%;
+}
+
+.cyr-container, .lat-container {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.cyr-textbox, .lat-textbox {
+	border: 0 solid black;
+	margin: 0; padding: 0;
+	resize: none;
+	outline: none;
+	box-shadow: none;
+	width: 100%;
+	height: 100%;
+	padding: 1.2rem;
+	box-sizing: border-box;
+}
+
+.cyr-textbox {
+	background-color: #B3E5FC;
+}
+
+.cyr-textbox:focus {
+	border-right: .4rem solid #01579B;
+}
+
+.lat-textbox {
+	background-color: #FFECB3;
+}
+
+.lat-textbox:focus {
+	border-left: .4rem solid #FF6F00;
+}
